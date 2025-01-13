@@ -78,3 +78,15 @@ stairCase function:
   - The number of hashes is i.
 - Constructs the line by repeating the space character and the hash character the required number of times.
 - Prints the constructed line.
+
+# Problem8_MinMaxSum
+
+- The main function reads the input from the standard input. It reads a single line of five space-separated integers and collects them into a vector arr.
+
+miniMaxSum function:
+
+- Takes a slice of integers as its parameter.
+- creates a mutable copy of the input array and sorts it in ascending order.
+- Calculates the minimum sum by summing the first four elements of the sorted array.
+- Calculates the maximum sum by summing the last four elements of the sorted array.
+- Prints the minimum and maximum sums as space-separated integers.
