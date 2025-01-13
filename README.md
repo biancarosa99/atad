@@ -90,3 +90,12 @@ miniMaxSum function:
 - Calculates the minimum sum by summing the first four elements of the sorted array.
 - Calculates the maximum sum by summing the last four elements of the sorted array.
 - Prints the minimum and maximum sums as space-separated integers.
+
+# Problem9_BirthdayCandles
+
+birthdayCakeCandles function:
+
+- Takes a slice of integers as its parameter.
+- Finds the maximum height of the candles using the max method on the iterator.
+- Counts how many candles have this maximum height using the filter method and count method on the iterator.
+- Returns the count as an integer
