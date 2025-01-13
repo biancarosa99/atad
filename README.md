@@ -64,3 +64,17 @@ plusMinus function:
 - Initializes counters for positive, negative, and zero values.
 - Iterates over the array and increments the appropriate counter based on whether the element is positive, negative, or zero.-
 - Calculates the ratios of positive, negative, and zero values by dividing the respective counts by n and prints the results.
+
+# Problem7_Staircase
+
+- The main function reads the input from the standard input. It reads the integer n, which denotes the size of the staircase.
+
+stairCase function:
+
+- Takes an integer n as its parameter.
+- Iterates from 1 to n (inclusive).
+- For each iteration i, it calculates the number of spaces and hashes needed for that line:
+  - The number of spaces is n - i.
+  - The number of hashes is i.
+- Constructs the line by repeating the space character and the hash character the required number of times.
+- Prints the constructed line.
