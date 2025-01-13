@@ -54,3 +54,13 @@ diagonalDifference function:
   - For the primary diagonal, it sums arr[i][i].
   - For the secondary diagonal, it sums arr[i][n - 1 - i], where n is the size of the matrix.
   - Finally, it returns the absolute difference between the two sums.
+
+# Problem6_PlusMinus
+
+plusMinus function:
+
+- Takes a slice of integers as its parameter.
+- Calculates the length of the array n as a floating-point number.
+- Initializes counters for positive, negative, and zero values.
+- Iterates over the array and increments the appropriate counter based on whether the element is positive, negative, or zero.-
+- Calculates the ratios of positive, negative, and zero values by dividing the respective counts by n and prints the results.
