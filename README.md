@@ -29,3 +29,13 @@ compareTriplets function:
 - If a[i] > b[i], Alice gets 1 point.
 - If a[i] < b[i], Bob gets 1 point.
 - Returns a Vec<i32> containing the scores [alice_score, bob_score].
+
+# Problem4_AVeryBigSum
+
+aVeryBigSum function:
+
+- Takes as input a slice of 64-bit integers (&[i64]).
+- Uses the iter method to create an iterator over the slice, and the sum method to compute the sum of all elements.
+- Returns the sum of the elements as a 64-bit integer (i64).
+
+Rust's i64 type supports 64-bit signed integers, making it suitable for very large sums.
