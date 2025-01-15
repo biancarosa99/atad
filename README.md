@@ -99,3 +99,12 @@ birthdayCakeCandles function:
 - Finds the maximum height of the candles using the max method on the iterator.
 - Counts how many candles have this maximum height using the filter method and count method on the iterator.
 - Returns the count as an integer
+
+# Problem10_GradingStudents
+
+gradingStudents function:
+
+- Takes a slice of integers grades and returns a vector of integers.
+- The map function is used to iterate over each grade. For each grade: - If the grade is 38 or higher, calculate the next multiple of 5. - If the difference between the grade and the next multiple of 5 is less than 3, round up to the next multiple of 5. - Otherwise, keep the grade as it is. - If the grade is less than 38, it remains unchanged.
+
+The main function reads input from standard input, processes the grades using the gradingStudents function, and writes the results to a file specified by the OUTPUT_PATH environment variable.
