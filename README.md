@@ -108,3 +108,21 @@ gradingStudents function:
 - The map function is used to iterate over each grade. For each grade: - If the grade is 38 or higher, calculate the next multiple of 5. - If the difference between the grade and the next multiple of 5 is less than 3, round up to the next multiple of 5. - Otherwise, keep the grade as it is. - If the grade is less than 38, it remains unchanged.
 
 The main function reads input from standard input, processes the grades using the gradingStudents function, and writes the results to a file specified by the OUTPUT_PATH environment variable.
+
+# Problem11_ExtraLongFactorials
+
+Extern Crates
+
+- We use extern crate declarations for num-bigint and num_traits to include these crates directly in the code.
+
+Dependencies:
+
+- We import the BigInt type from the num-bigint crate and the One trait from the num-traits crate.
+
+extraLongFactorials function:
+
+- Takes an integer n and calculates its factorial using a BigInt.
+- Initialize result to 1 (using BigInt::one()) and then multiplies it by each integer from 1 to n.
+- Prints the final result
+
+The Main Function reads input from standard input, parses it as an integer, and calls the extraLongFactorials function with the parsed integer.
