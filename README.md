@@ -126,3 +126,26 @@ extraLongFactorials function:
 - Prints the final result
 
 The Main Function reads input from standard input, parses it as an integer, and calls the extraLongFactorials function with the parsed integer.
+
+# Problem12_TimeInWords
+
+time_in_words function:
+
+- creates a vector "numbers" that contains the words for numbers from 0 to 29.
+- Match Statement:
+
+  - the function uses a match statement to handle different cases for the minutes (m): - If m is 0, it returns the hour followed by "o' clock".
+
+          - If m is 1, it returns "one minute past" followed by the hour.
+
+          - If m is 15, it returns "quarter past" followed by the hour.
+
+          - If m is 30, it returns "half past" followed by the hour.
+
+          - If m is 45, it returns "quarter to" followed by the next hour.
+
+          - If m is 59, it returns "one minute to" followed by the next hour.
+
+          - If m is between 2 and 29, it returns the minutes followed by "minutes past" and the hour.
+
+          - If m is between 31 and 58, it returns the remaining minutes to the next hour followed by "minutes to" and the next hour.
